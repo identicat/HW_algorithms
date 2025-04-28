@@ -38,7 +38,7 @@ def add_text_to_card(card_name, person):
     text = card['text'].format(name=person)
     draw.text(card['position'], text, font=font, fill=card['text_color'])
 
-    img.save(f"cards/{card_name} {text}.jpg")
+    img.save(f"cards/{card_name} {text}.png")
     print('Открытка сохранена')
 
 
